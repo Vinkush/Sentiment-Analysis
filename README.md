@@ -7,7 +7,7 @@ download their reviews and star ratings as training data for a very simple Naive
 
 
 ## The Problem
-It turns out that Yelp's Business Search API has a very signifcant limitation: it only displayed the first sentence or two of each review, truncating the rest with an ellipsis at the end.
+It turns out that Yelp's Business Search API has a very signifcant limitation: it only displays the first sentence or two of each review, truncating the rest with an ellipsis at the end.
 This hinders a data-hungry model from reaching its peak potential. 
 
 The way Yelp intended the API to be used was for the consumer (i.e, the application developer using the API) to use the included reviews[x].url field to redirect the end-user to a web page containing the rest of the review (so that Yelp can get
