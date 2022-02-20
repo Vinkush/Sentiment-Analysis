@@ -13,7 +13,7 @@ This hinders a data-hungry model from reaching its peak potential.
 The way Yelp intended the API to be used was for the consumer (i.e, the application developer using the API) to use the included reviews[x].url field to redirect the end-user to a web page containing the rest of the review (so that Yelp can get
 a few more ad impressions in the process). Our goal was to get around this problem and improve the results of the Naive Bayes model.
 
-## The solution
+## The Solution
 We used a combination of techniques to improve the training dataset.
 
 1) We only receive 50 reviews from a single API request. We used pagination (using limit and offset inputs) to retrieve 2400 reviews significantly increasing the size of the training set
